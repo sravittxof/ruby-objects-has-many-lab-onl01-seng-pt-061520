@@ -4,8 +4,8 @@ class Song
   
   @@all = []
   
-  def intialize()
-    
+  def intialize(name)
+    @name = name
   end
   
   def self.all
