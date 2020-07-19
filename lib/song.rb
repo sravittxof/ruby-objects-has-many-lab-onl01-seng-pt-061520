@@ -9,6 +9,10 @@ class Song
     
   end
   
+  def save
+    
+  end
+  
   def self.all
     @@all
   end
