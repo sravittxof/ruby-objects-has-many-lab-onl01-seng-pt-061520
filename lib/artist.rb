@@ -21,7 +21,7 @@ class Artist
   end
   
   def self.song_count
-    Song.all.count {|song| defined?
+    Song.all.count { |song| defined?(song.artist) }
   end
 
 end
