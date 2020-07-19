@@ -14,7 +14,7 @@ class Post
   end
   
   def save
-    self.all << self
+    @@all << self
   end
   
   def author_name
