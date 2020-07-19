@@ -8,7 +8,7 @@ class Artist
   
   def songs
     Song.all.select |song|
-      song.artist.name = self.name
+      song.artist = self
   end
   
   def add_song(song)
