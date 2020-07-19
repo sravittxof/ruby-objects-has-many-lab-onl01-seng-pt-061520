@@ -17,7 +17,6 @@ class Song
     @@all
   end
   
-  
   def artist_name
     defined?(self.artist.name)
   end
