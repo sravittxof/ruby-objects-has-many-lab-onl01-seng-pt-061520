@@ -14,7 +14,12 @@ class Post
   end
   
   def save
+    self.all << self
+  end
+  
+  def author
     
   end
+  
   
 end
