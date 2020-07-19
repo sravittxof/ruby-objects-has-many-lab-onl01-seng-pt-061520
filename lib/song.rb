@@ -21,4 +21,8 @@ class Song
     self.artist
   end
   
+  def artist_name
+    
+  end
+  
 end
